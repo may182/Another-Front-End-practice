@@ -1,0 +1,58 @@
+/* NAVIGATION SECTION  */
+
+#navbar{
+    flex-direction: column;
+}
+
+#navbar a{
+    color: black;
+}
+
+/* HOME section */
+#home{
+    /* background-color: black; */
+    overflow: hidden;
+    width: 252px;
+    height: 892px;
+    /* flex-direction: column; */
+
+}
+#home::before{
+    
+    height: 500px;
+}
+
+#home h1{
+
+    color: black;
+}
+
+#home p{
+    font-size: 14px;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Services section */
+
+#services{
+    padding: 10px;
+    margin: 50px;
+    flex-direction: column;
+    overflow: hidden;
+}
+#services .box{
+    
+}
+
+/* Client section */
+
+#clients{
+    overflow: hidden;
+}
+
+/* Contact section */
+
+/* utility section */
+
+/* footer */
